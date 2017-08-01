@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.cisco.com/pxgrid" targetNamespace="http://www.cisco.com/pxgrid" elementFormDefault="qualified" version="1.0">
 	<xs:include schemaLocation="xgridCmnMethods.xsd"/>
-	<xs:include schemaLocation="../model/xgridNodeModel.xsd"/>
+	<xs:include schemaLocation="./xgridNodeModel.xsd"/>
 	<!-- Node Methods -->
 	<xs:element name="connectRequest" type="ConnectRequest"/>
 	<!-- for poc just use a user for credentials but this needs to support other types of credentials to authenticate to the grid
