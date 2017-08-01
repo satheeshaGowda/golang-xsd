@@ -13,9 +13,10 @@
 	<!-- ###############################################################################
      Methods Schema
      ############################################################################### -->
-	<xs:include schemaLocation="./xgridCmnMethods.xsd"/>
+<!--	<xs:include schemaLocation="./xgridCmnMethods.xsd"/>
 	<xs:include schemaLocation="./xgridCoreMethods.xsd"/>
 	<xs:include schemaLocation="./xgridEventMethods.xsd"/>
 	<xs:include schemaLocation="./xgridNodeMethods.xsd"/>
 	<xs:include schemaLocation="./xgridPubSubMethods.xsd"/>
+-->
 </xs:schema>
